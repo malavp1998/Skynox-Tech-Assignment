@@ -3,6 +3,7 @@ import '../App.css';
 import StreamingComponents from './StreamingComponents'
 import SearchComponent from './SearchComponent.jsx'
 import PopularThisWeekComponents from './PopularThisWeekComponents.jsx'
+import TopTutorsComponents from './TopTutorsComponents.jsx'
 class UiComponents extends React.Component {
 
   render() {
@@ -15,8 +16,11 @@ class UiComponents extends React.Component {
          
         </div>
          <PopularThisWeekComponents />
+          <TopTutorsComponents />
         </div>
-       
+       <div>
+        
+       </div>
       </div>
       
   
