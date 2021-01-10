@@ -1,22 +1,33 @@
 import React from 'react';
 import '../App.css';
-//import ReactDOM from 'react-dom';
+import StreamingComponent from './StreamingComponent'
 
-class StreamingComponent extends React.Component{
-    
-    render(){
-    return(
-        <div>
-            <img style={{ marginRight:"5px",borderRadius:"30%"  , borderStyle: "solid" , borderColor: "coral", padding:"1px 1px"}} src={this.props.imgLink} width="50" height="60"  alt="Cinque Terre" />
+class StreamingComponents extends React.Component {
+
+    render() {
+        return (<div>
+            <div><h3 style={{ marginBottom: "20px" }}>Streaming Now</h3></div>
+            <div style={{ display: "flex" }} >
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+                <div>< StreamingComponent imgLink="//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" /></div>
+            </div>
         </div>
-       
-    )
+
+
+        )
     }
 }
 
 
 
-export default StreamingComponent
+export default StreamingComponents
 
 
 
@@ -31,7 +42,7 @@ export default StreamingComponent
 // class StreamingComponent extends React.Component {
 //   render() {
 //     return <h2>Hi, I am a Car!</h2>;
-   
+
 // }
 // }
 

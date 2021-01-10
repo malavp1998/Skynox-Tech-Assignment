@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render( <React.StrictMode> <App /> </React.StrictMode>, document.getElementById('root'));
 //C:\Users\piyus\OneDrive\Documents\Projects\Full stack with Spring and React\todo-app\node_modules\bootstrap\dist\css\bootstrap.min.css
