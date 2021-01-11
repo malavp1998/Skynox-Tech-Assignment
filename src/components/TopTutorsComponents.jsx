@@ -2,7 +2,11 @@ import React from 'react';
 import { Grid , Label,Image } from 'semantic-ui-react'
 import { Icon } from 'semantic-ui-react'
 import '../App.css';
-
+import image7 from './images/image7.png'
+import image8 from './images/image8.png'
+import image9 from './images/image9.png'
+import image10 from './images/image10.png'
+import image11 from './images/image11.jpg'
 class TopTutorsComponents extends React.Component {
 
     render() {
@@ -13,13 +17,13 @@ class TopTutorsComponents extends React.Component {
     <Grid.Row>
       <Grid.Column width={5}>
       <Label size='huge' as='a'>
-      <Image avatar spaced='right' src='https://react.semantic-ui.com/images/avatar/small/elliot.jpg' />
+      <Image avatar spaced='right' src={image7} />
       Malav Gdfdcv xvxvfdg <Icon name='plus square' />
     </Label>
       </Grid.Column>
       <Grid.Column width={5}>
       <Label size='huge' as='a'>
-      <Image avatar spaced='right' src='https://react.semantic-ui.com/images/avatar/small/elliot.jpg' />
+      <Image avatar spaced='right' src={image8} />
       Malav Gdfdcv xvxvfdg <Icon name='plus square' />
     </Label>
       </Grid.Column>
@@ -28,14 +32,14 @@ class TopTutorsComponents extends React.Component {
     <Grid.Row>
       <Grid.Column width={5}>
       <Label size='huge' as='a'>
-      <Image avatar spaced='right' src='https://react.semantic-ui.com/images/avatar/small/elliot.jpg' />
+      <Image avatar spaced='right' src={image9} />
       Malav Gdfdcv xvxvfdg <Icon name='plus square' />
   
     </Label>
       </Grid.Column>
       <Grid.Column width={5}>
       <Label size='huge' as='a'>
-      <Image avatar spaced='right' src='https://react.semantic-ui.com/images/avatar/small/elliot.jpg' />
+      <Image avatar spaced='right' src={image10} />
       Malav Gdfdcv xvxvfdg <Icon name='plus square' />
     </Label>
       </Grid.Column>
@@ -43,7 +47,7 @@ class TopTutorsComponents extends React.Component {
       <Grid.Row columns={1}>
       <Grid.Column>
           
-       <img style={{marginTop:"-94px"}} src='//media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png' width="350" height="160" alt="Cinque Terre" />
+       <img style={{marginTop:"-94px"}} src={image11} width="350" height="160" alt="Cinque Terre" />
       </Grid.Column>
     
     </Grid.Row>

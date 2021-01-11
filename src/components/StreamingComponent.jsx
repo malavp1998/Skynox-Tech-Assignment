@@ -12,4 +12,4 @@ class StreamingComponent extends React.Component {
         )
     }
 }
-export default StreamingComponent
+export default StreamingComponent 
