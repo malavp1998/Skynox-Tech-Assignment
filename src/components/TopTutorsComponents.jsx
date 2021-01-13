@@ -32,14 +32,14 @@ class TopTutorsComponents extends React.Component {
           <Grid.Row>
             <Grid.Column width={5}>
               <Label size='huge' as='a'>
-                <Image avatar spaced='right' src={image9} />
+                <Image avatar spaced='right' src={image10} />
       Malav Gdfdcv xvxvdg <Icon name='plus square' />
 
               </Label>
             </Grid.Column>
             <Grid.Column width={5}>
               <Label size='huge' as='a'>
-                <Image avatar spaced='right' src={image10} />
+                <Image avatar spaced='right' src={image9} />
       Malav Gdfdcv xsdg <Icon name='plus square' />
               </Label>
             </Grid.Column>
